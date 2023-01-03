@@ -1,0 +1,9 @@
+nums = [-9, -1, 4, 25, -99999, 8]
+function module(nums){
+    let arr=[];
+    for(let num of nums){
+        arr.push(Math.abs(num))
+    }
+    return arr;
+}
+console.log(module(nums));
